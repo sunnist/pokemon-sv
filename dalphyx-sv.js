@@ -6,7 +6,7 @@
 var dalphyx_sv_data = {
   "trainer": "dalphyx",
   "game_version": "Y",
-  "shinning_value": [
+  "shining_value": [
     0007,
     0022,0023,
     0031,0034,0039,
