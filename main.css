@@ -1,3 +1,6 @@
+input:-moz-placeholder { font-size: 13px; }
+::-webkit-input-placeholder { font-size: 13px }
+
 body{
 
   background-image: url('http://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-135927.jpg');
@@ -21,7 +24,7 @@ body{
 	font-weight: bold;
 	font-family: sans-serif;
 	text-align: center;
-	text-shadow:0 -1px 1px #eee;
+	text-shadow:0 -1px 1px #f8f8f8;
 }
 
 .head p{
@@ -32,20 +35,65 @@ body{
 }
 
 form{
-	margin: 0 auto; 
-	width:250px;
+	margin: auto; 
+	width: 370px;
+ 	font-size: 14px;
+ 	padding-top: 10px;
+
+}
+
+input{
+ 	font-size: 14px;
+ 	width: 250px;
+ 	height: 40px;
+}
+
+button:focus,input:focus {
+  	outline: 0;
 }
 
 button{
-	background-color:rgba(0,0,255,0);
+	background-color:rgba(255,255,255,0.06);
 	height: 40px;
 	width: 100px;
 	border-style: solid;
 	border-width: 2px;
 	border-color: #fff;
 	border-radius: 5px;
-	margin-top: 20px;
 	text-align: center;
-	font-size: 13px;
+	font-size: 15px;
+	color: #fff;
+ 	margin-left: 10px;
+}
+
+.result{
+ 	margin: auto; 
+ 	width: 370px;
+ 	height: 200px;
+ 	border-radius: 2px;
+ 	background-color: rgba(255,255,255,0.2);
+
+}
+
+.result p{
+	text-align: center;
+	padding-top: 90px;
 	color: #fff;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
